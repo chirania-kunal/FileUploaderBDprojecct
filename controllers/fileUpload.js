@@ -192,3 +192,10 @@ exports.imageSizeReducer = async (req,res) => {
         });
     }
 }
+
+// all logic should be written in post middleware hook
+// for sending mail aitomatically
+// nodemailer install
+// create an instance of nodemailer
+// create a transporter of nodemailer
+// sent an email through transporter

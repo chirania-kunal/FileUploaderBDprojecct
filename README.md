@@ -1,14 +1,14 @@
 # File Upload Project
 
-A comprehensive web application for uploading images and videos to the server. The application uses Express.js as the backend framework, `express-fileupload` middleware for handling file uploads, and integrates with the Cloudinary platform(media management platform ) for cloud storage. Files are stored both locally on the server and on Cloudinary. Additionally, an automated email notification is sent upon successful upload to both storage locations.
+A comprehensive web application for uploading images and videos to the server and cloudinary platform . The application uses Express.js as the backend framework, `express-fileupload` middleware for handling file uploads, and integrates with the Cloudinary platform(media management platform ) for cloud storage. Files are stored both locally on the server and on Cloudinary. Additionally, an automated email notification is sent upon successful upload to the mail given in request.
 
 ## Features
 
-- **File Upload:** Users can upload image and video files through a simple interface.
-- **Local Storage:** Uploaded files are saved on the server for quick access.
-- **Cloud Storage:** Files are uploaded to Cloudinary for reliable cloud-based storage.
-- **Email Notifications:** Automated emails are sent to notify users of successful uploads.
-- **Robust Backend:** Powered by Express.js and `express-fileupload` middleware for efficient handling of file uploads.
+- File Upload: Users can upload image and video files.
+- Local Storage: Uploaded files are saved on the server for quick access.
+- Cloud Storage: Files are uploaded to Cloudinary for reliable cloud-based storage.
+- Email Notifications: Automated emails are sent to notify users of successful uploads.
+- Robust Backend: Powered by Express.js and `express-fileupload` middleware for efficient handling of file uploads.
 
 ## Technologies Used
 
@@ -17,16 +17,14 @@ A comprehensive web application for uploading images and videos to the server. T
 - **Cloud Storage:** Cloudinary
 - **Email Service:** NodeMailer
 - **Environment Management:** dotenv
-- **Additional Libraries:**
-  - body-parser
-  - cors
+
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/file-upload-project.git
-   cd file-upload-project
+   git clone https://github.com/chirania-kunal/FileUploaderBDprojecct.git
+   cd FileUpload
    ```
 
 2. Install dependencies:
