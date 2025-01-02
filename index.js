@@ -11,7 +11,10 @@ app.use(express.json());
 // express js does not have any way to how to interact with files so for that we need 
 // file upload middleware for that install (npm i express-fileupload)
 const fileupload = require("express-fileupload");
-app.use(fileupload());
+app.use(fileupload({
+    useTempFiles : true,
+    tempFileDir : '/tmp/'
+}));
 
 
 // db connection
